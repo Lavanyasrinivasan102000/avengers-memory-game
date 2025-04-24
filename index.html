@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Avengers Memory Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <h1>🦸‍♂️ Avengers Memory Game</h1>
+  <div class="game-board" id="gameBoard"></div>
+  <div class="stats">
+    <p id="score">Moves: 0</p>
+    <p id="timer">Time: 0s</p>
+  </div>
+  
+  <p id="win-message" style="display: none; font-size: 20px; color: gold;">🎉 You won! 🎉</p>
+  <button id="restartBtn" onclick="window.location.reload()" style="display: none; margin-top: 15px;">
+    🔁 Play Again
+  </button>
+  
+
+  <audio id="win-sound" src="sounds/avengers_win.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
